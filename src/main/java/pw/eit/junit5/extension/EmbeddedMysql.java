@@ -1,11 +1,10 @@
 package pw.eit.junit5.extension;
 
-import pw.eit.junit5.util.RandomPortInitailizer;
-import com.wix.mysql.EmbeddedMysql;
 import com.wix.mysql.config.MysqldConfig;
 import org.junit.jupiter.api.extension.AfterAllCallback;
 import org.junit.jupiter.api.extension.BeforeAllCallback;
 import org.junit.jupiter.api.extension.ExtensionContext;
+import pw.eit.junit5.util.RandomPortInitailizer;
 
 import static com.wix.mysql.config.MysqldConfig.aMysqldConfig;
 import static com.wix.mysql.distribution.Version.v5_7_latest;
