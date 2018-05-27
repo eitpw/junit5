@@ -54,7 +54,7 @@ dependencies {
             "org.apache.activemq:activemq-broker:5.15.3",
 
             // MySQL
-            "com.wix:wix-embedded-mysql:3.1.1",
+            "com.wix:wix-embedded-mysql:4.1.2",
 
             // Utils
             "org.awaitility:awaitility:3.0.0",
